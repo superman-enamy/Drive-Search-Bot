@@ -1,4 +1,4 @@
-FROM ghcr.io/devilld/py3-dev
+FROM ghcr.io/devilld/py-dev
 
 WORKDIR /BOT
 
