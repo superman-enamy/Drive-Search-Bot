@@ -22,9 +22,130 @@
         "required": true
       },
       "TELEGRAPH_TOKEN": {
+        "descrip{
+    "name": "Drive Search Bot",
+    "description": "Search file inside the google drive",
+    "logo": "https://i.ibb.co/m6V57dy/ds.jpg",
+    "keywords": [
+      "telegram",
+      "bot",
+      "aria",
+      "python"
+    ],
+    "repository": "https://github.com/devillD/Drive-Search-Bot.git",
+    "website": "https://github.com/devillD/Drive-Search-Bot/tree/master",
+    "success_url": "https://github.com/devillD/Drive-Search-Bot/tree/master/README.md",
+    "stack": "container",
+      "env": {
+      "BOT_TOKEN": {
+        "description": "The telegram bot token that you get from @BotFather.",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "The Telegram user ID (not username) of the owner of the bot.",
+        "required": true
+      },
+      "TELEGRAPH_TOKEN": {
         "description": "Generate using python3 generate_telegraph_token.py.",
+        "required": true
+      },
+      "CRED_URL": {
+        "description": "Credentials.json file direct url",
+        "required": true
+      },
+      "TOKEN_URL": {
+        "description": "token.pickle file direct url",
+        "required": true
+      },
+      "DRIVE_FILE": {
+        "description": "drive_folder file direct url",
+        "required": true
+      }
+    }
+tion": "Generate using python3 generate_telegraph_token.py.",
         "required": true
       },
       
     }
+}
+{
+
+    "name": "Drive Search Bot",
+
+    "description": "Search file inside the google drive",
+
+    "logo": "https://i.ibb.co/m6V57dy/ds.jpg",
+
+    "keywords": [
+
+      "telegram",
+
+      "bot",
+
+      "aria",
+
+      "python"
+
+    ],
+
+    "repository": "https://github.com/devillD/Drive-Search-Bot.git",
+
+    "website": "https://github.com/devillD/Drive-Search-Bot/tree/master",
+
+    "success_url": "https://github.com/devillD/Drive-Search-Bot/tree/master/README.md",
+
+    "stack": "container",
+
+      "env": {
+
+      "BOT_TOKEN": {
+
+        "description": "The telegram bot token that you get from @BotFather.",
+
+        "required": true
+
+      },
+
+      "OWNER_ID": {
+
+        "description": "The Telegram user ID (not username) of the owner of the bot.",
+
+        "required": true
+
+      },
+
+      "TELEGRAPH_TOKEN": {
+
+        "description": "Generate using python3 generate_telegraph_token.py.",
+
+        "required": true
+
+      },
+
+      "CRED_URL": {
+
+        "description": "Credentials.json file direct url",
+
+        "required": true
+
+      },
+
+      "TOKEN_URL": {
+
+        "description": "token.pickle file direct url",
+
+        "required": true
+
+      },
+
+      "DRIVE_FILE": {
+
+        "description": "drive_folder file direct url",
+
+        "required": true
+
+      }
+
+    }
+
 }
