@@ -25,17 +25,6 @@
         "description": "Generate using python3 generate_telegraph_token.py.",
         "required": true
       },
-      "CRED_URL": {
-        "description": "Credentials.json file direct url",
-        "required": true
-      },
-      "TOKEN_URL": {
-        "description": "token.pickle file direct url",
-        "required": true
-      },
-      "DRIVE_FILE": {
-        "description": "drive_folder file direct url",
-        "required": true
-      }
+      
     }
 }
